@@ -4,6 +4,10 @@ A Streamlit web app that estimates diabetes risk and flags individual health
 parameters (glucose, blood pressure, BMI, insulin, etc.) using a Random Forest
 model trained on the Pima Indians Diabetes Database.
 
+## Live Demo
+
+🌐 [Live Demo](https://glycoscan-k7jecpfxz98wveubzmfayp.streamlit.app/)
+
 ## Folder contents
 
 ```
@@ -33,9 +37,6 @@ GlycoScan                     # Repository name
    ```bash
    streamlit run app.py
    ```
-
-3. Your browser should open automatically at `http://localhost:8501`.
-   If not, open that URL manually.
 
 ## What the app includes
 
