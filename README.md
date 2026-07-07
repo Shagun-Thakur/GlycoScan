@@ -7,14 +7,17 @@ model trained on the Pima Indians Diabetes Database.
 ## Folder contents
 
 ```
-streamlit_app/
-├── app.py                     # Main Streamlit app
-├── requirements.txt           # Python dependencies
-└── model/
-    ├── rf_diabetes_model.joblib   # Trained Random Forest model
-    ├── scaler.joblib              # Fitted StandardScaler
-    ├── feature_names.joblib       # Feature column order
-    └── diabetes.csv               # Reference dataset (for comparison charts)
+GlycoScan                     # Repository name
+├── diabetes_rf_eda.ipynb     # EDA and Model Training notebook  
+├── streamlit_app/
+|        ├── app.py            # Streamlit app      
+|        └── model/
+|           ├── rf_diabetes_model.joblib   # Trained Random Forest model
+|            ├── scaler.joblib              # Fitted StandardScaler
+|            ├── feature_names.joblib       # Feature column order
+|            └── diabetes.csv               # Reference dataset (for comparison charts)
+|     
+└── requirements.txt
 ```
 
 ## How to run locally
